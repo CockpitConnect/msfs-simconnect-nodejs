@@ -20,6 +20,9 @@
     "bugs": {
         "url": "https://github.com/CockpitConnect/msfs-simconnect-nodejs/issues"
     },
+    "publishConfig": { 
+        "registry": "https://npm.pkg.github.com/"
+    },
     "bundleDependencies": false,
     "dependencies": {
         "nan": "^2.14.0"
