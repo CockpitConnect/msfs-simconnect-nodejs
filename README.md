@@ -29,6 +29,12 @@ Import the module:
 
 `const simConnect = require('msfs-simconnect-nodejs');`
 
+## Differences between MSFS SimConnect and node SimConnect
+
+Calls to `requestDataOnSimObject` and `requestDataOnSimObjectType` will return the simulation ObjectID for the object in the callback data object in addition to the requested Simulation Variables.
+
+ObjectID 1 is the user.
+
 ## Requirements
 * NodeJS 64 bit
 * Microsoft Visual Studio 2019 (Community)
