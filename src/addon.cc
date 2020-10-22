@@ -186,6 +186,9 @@ void handleReceived_Data(Isolate *isolate, SIMCONNECT_RECV *pData, DWORD cbData)
 	Local<Object> result_list = Object::New(isolate);
 	int dataValueOffset = 0;
 
+	// always add the Object ID to the response payload
+	result_list->Set(String::NewFromUtf8(isolate, "ObjectID"), Number::New(isolate, pObjData->dwObjectID));
+
 	for (int i = 0; i < numVars; i++)
 	{
 		int varSize = 0;
