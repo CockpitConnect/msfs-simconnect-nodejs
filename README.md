@@ -36,7 +36,8 @@ Calls to `requestDataOnSimObject` and `requestDataOnSimObjectType` will return t
 ObjectID 1 is the user.
 
 ## Requirements
-* NodeJS 64 bit
+* NodeJS v12.18 64 bit
+* NPM v6.14
 * Microsoft Visual Studio 2019 (Community)
 * Python 3 (for compilation)
 * SimConnect SDK 
