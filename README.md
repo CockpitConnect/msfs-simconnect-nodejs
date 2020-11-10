@@ -42,6 +42,9 @@ ObjectID 1 is the user.
 * Python 3 (for compilation)
 * SimConnect SDK 
 
+### 2020-11-10
+* Works with SimConnect SDK 0.7.1
+
 ## Thanks
 Inspired by https://github.com/EvenAR/node-simconnect
 
